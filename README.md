@@ -1,6 +1,6 @@
 # portfolio website templates
 
-for start pu :" npm i" .
+for start :" npm i" .
 
 and after : "npm start" .
 
