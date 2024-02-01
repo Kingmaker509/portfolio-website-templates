@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+// color
+$white: #fff;
+$black: #000000;
+$darken: #232931;
+
+$primary: #ffbd39;
+$secondary: #a0f669;
+
+$progress-bg: $darken;
+
+
+.white{
+    color: $white !important;
+}
+
+.primary{
+    color: $primary !important;
+}
+
+
+// bg color 
+
+.bg-gray {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.bg-gold {
+    background-color: $primary !important;
+}
+
+//  font famaily
+$font1:"Fira Code", monospace;
+
+//font size
+.fs-7 {
+    font-size: 4rem !important;
+}
+
+.fs-8 {
+    font-size: 5rem !important;
+}
