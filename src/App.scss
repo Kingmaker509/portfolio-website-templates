@@ -103,7 +103,29 @@ table {
   &:hover {
     background-color: $primary;
   }
-  &:hover > .boxtxt{
+  &:hover > .boxtxt {
     color: black;
   }
+}
+
+.bg-2 {
+  background-color: rgb(230, 230, 230) !important;
+}
+
+.finput {
+  width: 100%;
+  padding: 5px;
+  margin: 10px auto;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(230, 230, 230) !important;
+}
+
+.btn2 {
+  padding: 0.6rem 2rem;
+  border: 1px solid $primary;
+  transition: all 0.5s ease-in-out;
+  background-color: $primary;
+  color: $black;
 }

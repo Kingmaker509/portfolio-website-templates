@@ -5,6 +5,8 @@ import Resume from "../componets/Resume";
 import Services from "../componets/Services";
 import Skills from "../componets/Skills";
 import Project from "../componets/Project";
+import Contact from "../componets/Contact";
+import Footer from "../componets/Footer";
 
 const Home = () => {
   return (
@@ -44,6 +46,11 @@ const Home = () => {
                   Project
                 </a>
               </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" aria-current="page" href="#contact">
+                  Contact
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -69,8 +76,16 @@ const Home = () => {
         <Skills />
       </div>
 
-      <div className="container-fluid" id="project">
+      {/* <div className="container-fluid" id="project">
         <Project />
+      </div> */}
+
+      <div className="container-fluid" id="contact">
+        <Contact />
+      </div>
+
+      <div className="container-fluid" id="contact">
+        <Footer />
       </div>
     </>
   );
