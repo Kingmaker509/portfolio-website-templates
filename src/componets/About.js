@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
 import img1 from "../images/IMG_20231125_175302.jpg";
-import Table from './Table';
-import bio from '../data/biodata'
+import Table from "./Table";
+import bio from "../data/biodata";
 
 const About = () => {
+  
   return (
     <>
       <div className="container py-5">
@@ -23,13 +24,20 @@ const About = () => {
               ))}
             </div>
             <div className="text-center text-md-start py-5">
-              <button className="btn1 rounded-pill">Downlod cv</button>
+              <button className="btn1 rounded-pill">
+                <a
+                  href="https://drive.google.com/file/d/1BYJDpqiCvE53ZEooycInaM-rda_1rVD6/view?usp=sharing"
+                  className="cvlink"
+                >
+                  Downlod cv
+                </a>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </>
   );
-}
+};
 
-export default About
+export default About;
